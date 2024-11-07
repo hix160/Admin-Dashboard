@@ -58,14 +58,32 @@
     <div>
         <div class="header">
 
-            <div id="search_bar">
-                <img src="/icons/search_24dp_UNDEFINED_FILL0_wght400_GRAD0_opsz24.svg" alt="">
-                <div>search bar</div>
+            <div class="search container">
+                
+                <form action="/search" method="get">
+                    <button type="submit" class="search button"><img src="/icons/search_24dp_UNDEFINED_FILL0_wght400_GRAD0_opsz24.svg" alt=""></button>
+                    <input type="text" name="query" class="search input">
+                    
+                </form>
+                
             </div>
             
-            <div>little profile</div>
-            <div> more of profile</div>
-            <div>3 buttons</div>
+            <div class="profile little">
+                <img src="/icons/notifications_24dp_UNDEFINED_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                <img src="/images/profile_picture.jpeg" alt="">
+                <div>Janis Kauls</div>
+            </div>
+
+            <div class="profile big">
+                <img src="/images/profile_picture.jpeg" alt="">
+                <div>Welcome to DashBoard,</div>
+                <div>Janis Kauls @hix160</div>
+            </div>
+            <div class="action">
+                <button>New</button>
+                <button>Upload</button>
+                <button>Share</button>
+            </div>
         </div>
         <div class="main">
 
